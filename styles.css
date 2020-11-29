@@ -1,0 +1,14 @@
+@keyframes blink {
+  from {
+    left: 0
+  }
+  to {
+    left: 10px
+  }
+}
+
+#shadow-root .blink {
+  animation: blink linear 1s infinite;
+  color: pink;
+  position: relative
+}
